@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "WotD",
+  "description": "Webscrappes the Word of the Day from HelpForEnglish.cz",
+  "developer_name": "Fajtak",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "wotd_keyword",
+      "type": "keyword",
+      "name": "WotD",
+      "description": "Show Word of the Day from HelpForEnglish.cz",
+      "default_value": "wod"
+    }
+  ]
+}
